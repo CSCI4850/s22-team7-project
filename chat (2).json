@@ -57,7 +57,7 @@
         {"tag": "thanks",
              "patterns": ["thank you!", "thanks", "thank you very much"],
              "responses": ["You're welcome!", "No Problem", "You know it!"],
-             "context_set: ""
+             "context_set": ""
         },
         {"tag": "human",
             "patterns": [ "what are you?","Are you human?","Are you a robot?", "Are you real", "you're not real, are you"],
