@@ -2,11 +2,12 @@
 
 Project : CHATBOT
 
-
+Hello! And thank you for wanting to talk to our little buddy.
+Before we begin however, there's just a couple things you need to know. You will need Jupyter to be able to talk to our robot but no worries, we'll explain in details how to do that. And the choice is yours whether to download or just use your browser. Our project's objective was to have an A.I that can simulate a basic human interection. A little pocket buddy or in this case lap buddy. The horrible naming of Replying_Tom came from it's inspiration being Talking Tom, but with a less on sided conversation. So beware, this robot will not always tell you what you want to hear!
 
 Installation:
 
-Launch Jupyter Noebook:
+Launch Jupyter Notebook:
 
 1. Open the command prompt (cmd) and give the Administrator access to it.
 
@@ -18,6 +19,11 @@ Launch Jupyter Noebook:
 
 5. After this, it will open the Jupyter notebook in your default browser.
 
+OR
+
+1. Download the latest version of anaconda. (Google download anaconda)
+2. Follow the steps for proper installation
+3. On Windows, you can run Jupyter via the shortcut Anaconda adds to your start menu, which will open a new tab in your default web browser
 
 Features:
 
@@ -25,7 +31,7 @@ Features:
 
 2. Main libraries used are tflearn, nltk, numpy, tensorflow.
 
-3. intents.json is created which has tags and responses.
+3. chat.json is created which has tags and responses.
 
 4. Bag of words is created, which tokenizes a sentence and generate the vector representation.
 
@@ -33,11 +39,10 @@ Features:
 
 
 
-
 Steps to run:
 
 1. Upload chatbot.ipynb file to jupyternotebook.
 
-2. Run each cell, starting from the first cell.
+2. Run each cell, starting from the first cell or hit restart kernel and run all cells.
 
-3. After completion, while executing the chat() function, provide the user inputs for ex: how are u? and program returns the response.
+3. After completion, while provide the user a textbox foor inputs. (eg: Hey, how are u? and program shall return a response.) 
